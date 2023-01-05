@@ -1,0 +1,142 @@
+body{
+    padding: 0 120px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.navbar .kelas {
+    color: blue;
+}
+
+.navbar h1 {
+    font-size: 25px;
+}
+
+.navbar .gas {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.navbar .gas a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+
+.navbar .active {
+    font-weight: bold;
+}
+
+.navbar .ig {
+    background-color: red;
+    color: #ffff;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.navbar .wa {
+    background-color: green;
+    color: #ffff;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.hero {
+    display: flex;
+    margin-top: 40px;
+}
+
+.hero .nama h1{
+    gap: 5px;
+    width: 100%;
+    font-size: 51px;
+}
+
+.hero .nama p{
+    margin-top: 50px;
+    text-align: left;
+}
+
+.hero .gambar {
+    width: 50%;
+}
+
+.hero .nama .hm {
+    background-color: red;
+    color: #ffff;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.hero1 {
+    margin-top: 40px;
+}
+
+.hero1 .judul h1{
+    text-align: center;
+}
+
+.hero1 .judul p{
+    text-align: center;
+}
+
+.hero2 {
+    margin-top: 60px;
+    display: flex;
+}
+
+.hero2 .product p {
+    font-size: 17px;
+}
+
+.hero2 .product {
+    background-color: #ffff;
+    width: 450px;
+    margin-right: 60px;
+    border-top: 4px solid blueviolet;
+    padding: 25px;
+}
+
+.hero2 .design p {
+    font-size: 17px;
+}
+
+.hero2 .design {
+    background-color: #ffff;
+    width: 450px;
+    margin-right: 60px;
+    border-top: 4px solid blueviolet;
+    padding: 25px;
+}
+
+.hero2 .frontend p {
+    font-size: 17px;
+}
+
+.hero2 .frontend {
+    background-color: #ffff;
+    width: 450px;
+    margin-right: 60px;
+    border-top: 4px solid blueviolet;
+    padding: 25px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 18px;
+    padding: 20px;
+    color: #ffff;
+    background-color: blueviolet;
+    border-radius: 20px;
+}
